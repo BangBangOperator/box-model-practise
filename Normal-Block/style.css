@@ -1,0 +1,41 @@
+*{
+    margin: 10px;
+    padding: 0px;
+}
+
+/* General styling */
+.demo-box {
+    border: 3px solid rebeccapurple;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* Children styling */
+.demo-box span,
+.demo-box div {
+    border: 2px solid teal;
+    padding: 5px;
+    margin: 5px;
+    background: lightyellow;
+}
+
+/* Inline box */
+/* .inline {
+    display: inline;
+    background: lightblue;
+} */
+
+/* Flexbox container (outer = block, inner = flex) */
+/* .flex-container {
+    display: flex;
+    gap: 10px;
+    background: lightpink;
+} */
+
+/* Grid container (outer = block, inner = grid) */
+/* .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    background: lightgreen;
+} */
